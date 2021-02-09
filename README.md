@@ -15,6 +15,23 @@
 こんな変換のためにいちいち Web アプリをローンチするのもかったるすぎるので  
 PC 上で完結できるようにしましょう。
 
+### そもそも〜向けの記事って何？
+
+**コードブロックの書き方がちょっと違います。**  
+そのせいで片方向けの記事を書いてもう片方で公開したいとなるとちょっとめんどくさいです。
+
+Gatsby 向けの記事だと`python:title=hoge`。
+Qiita 向けの記事だと`python :hoge`みたいな感じ。
+
+これをごちゃごちゃにするとこうなります。
+
+```python:title=script.py
+
+```
+
+これではちょっと嫌ですね。
+それでは、やっていきます。
+
 ## 材料
 
 - ShellScript もとい bash
@@ -23,7 +40,7 @@ PC 上で完結できるようにしましょう。
 
 ## 早速組み立てていく
 
-すでにできたものがこちらになります。
+できたものがこちらになります。
 
 ```sh:title=script.sh
 # クリップボードから文字列を変数に代入する
@@ -72,4 +89,4 @@ A. **何故か知らないんですけどそれができなかったのです。
 
 [文字コードと改行コード \| UNIX & Linux コマンド・シェルスクリプト リファレンス](https://shellscript.sunone.me/character_code.html)
 
-［clip / pbcopy・pbpaste］クリップボードにコピー | 日経クロステック（xTECH） https://xtech.nikkei.com/it/atcl/column/15/042000103/080400036/
+[［clip / pbcopy・pbpaste］クリップボードにコピー \| 日経クロステック（xTECH）](https://xtech.nikkei.com/it/atcl/column/15/042000103/080400036/)
